@@ -1,6 +1,15 @@
 import type { FC } from "react";
+import { BrowserRouter } from "react-router-dom";
+import WebRouter from "./Router/WebRouter";
+import AppLayout from "./Components/Layout/AppLayout";
 
 const App: FC = () => {
-  return <div className="w-full h-56 bg-red-500"></div>;
+  return (
+    <AppLayout>
+      <BrowserRouter>
+        <WebRouter />
+      </BrowserRouter>
+    </AppLayout>
+  );
 };
 export default App;

@@ -3,6 +3,8 @@
 html {
   direction: rtl;
   font-family: "Vazirmatn", system-ui, sans-serif;
+  background-color: #17183e;
+  color: #ffffff;
 }
 
 @font-face {
