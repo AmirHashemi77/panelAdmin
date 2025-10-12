@@ -1,1 +1,31 @@
 @import "tailwindcss";
+
+@theme {
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-blue: var(--blue);
+  --color-yellow: var(--yellow);
+  --color-gold: var(--gold);
+  --color-red: var(--red);
+  --color-green: var(--green);
+  --color-orange: var(--orange);
+}
+
+:root {
+  --primary: #17183e;
+  --primary-foreground: white;
+  --secondary: #50378b;
+  --secondary-foreground: white;
+  --blue: #1eddfc;
+  --yellow: #e3ff00;
+  --gold: #f3bf23;
+  --red: #f92251;
+  --green: #27ca71;
+  --orange: #f16e10;
+  --card: #272450;
+  --card-foreground: #ffffff;
+}
