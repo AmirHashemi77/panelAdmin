@@ -87,6 +87,7 @@ html {
   --color-card: var(--card);
   --color-card-foreground: var(--card-foreground);
   --color-blue: var(--blue);
+  --color-blue2: var(--blue2);
   --color-yellow: var(--yellow);
   --color-gold: var(--gold);
   --color-red: var(--red);
@@ -101,6 +102,7 @@ html {
   --secondary: #50378b;
   --secondary-foreground: white;
   --blue: #1eddfc;
+  --blue2: #1edefc5e;
   --yellow: #e3ff00;
   --gold: #f3bf23;
   --red: #f92251;
