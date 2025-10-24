@@ -5,11 +5,11 @@ import AppLayout from "./Components/Layout/AppLayout";
 
 const App: FC = () => {
   return (
-    <AppLayout>
-      <BrowserRouter>
+    <BrowserRouter>
+      <AppLayout>
         <WebRouter />
-      </BrowserRouter>
-    </AppLayout>
+      </AppLayout>
+    </BrowserRouter>
   );
 };
 export default App;

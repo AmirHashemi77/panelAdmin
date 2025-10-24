@@ -6,7 +6,7 @@ import { RiArticleFill } from "react-icons/ri";
 
 const SideBar: FC = () => {
   return (
-    <div className="fixed top-0 right-0 w-1/8 bg-card h-screen p-4 border-l-2 border-l-blue shadow-2xl">
+    <div className="fixed top-0 right-0 w-1/5 bg-card h-screen p-4 border-l-2 border-l-blue shadow-2xl">
       <div className="flex flex-col items-start gap-5">
         <div className="flex items-center gap-3 w-full">
           <img src="/image/profile.png" alt="profil" className="w-10 h-10 rounded-full object-fill object-center" />
